@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <script src="main.js"></script>
+
+</head>
+<body>
+
+
+    <script>
+        var num1 = window.prompt('Enter first number');
+        var operator = window.prompt('Enter operator');
+        var num2 = window.prompt('Enter first second');
+
+
+        num1 = parseFloat(num1);
+        num2 = parseFloat(num2);
+
+        
+        if(operator === '+') {
+            document.write(num1 + num2)
+        }
+        if(operator === '-') {
+            document.write(num1 - num2)
+        }
+        if(operator === '/') {
+            document.write(num1 / num2)
+        }
+        if(operator === '*') {
+            document.write(num1 * num2)
+        }
+    </script>
+</body>
+</html>
